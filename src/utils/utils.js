@@ -268,6 +268,7 @@ const fetchSatylymDogovor = (recordID) => {
       );
   });
 };
+
 function deliverData(recordID) {
   const dostavka = 'доставки';
   return new Promise((resolve, reject) => {
