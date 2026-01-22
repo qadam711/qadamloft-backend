@@ -292,6 +292,7 @@ function deliverData(recordID) {
       );
   });
 }
+
 async function fetchData(recordID) {
   let items = [];
   const zakazy_podrobno = 'Сатылым2';
